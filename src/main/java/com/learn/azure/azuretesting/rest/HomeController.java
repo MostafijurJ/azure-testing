@@ -11,7 +11,7 @@ public class HomeController {
         return "Your application is successfully deployed on Azure!";
     }
 
-    @GetMapping("/update")
+    @GetMapping("/test")
     private String sayUpdate(){
         return "Your application is successfully Update by CI/CD  in Azure!";
     }
