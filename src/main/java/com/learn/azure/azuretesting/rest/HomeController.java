@@ -10,4 +10,9 @@ public class HomeController {
     private String sayHi(){
         return "Your application is successfully deployed on Azure!";
     }
+
+    @GetMapping("/update")
+    private String sayUpdate(){
+        return "Your application is successfully Update by CI/CD  in Azure!";
+    }
 }
